@@ -1,0 +1,61 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Exo 2", sans-serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+main {
+  margin: auto;
+  background: white;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 50%;
+  padding: 30px;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+div p {
+  text-align: justify;
+}
+
+div a{
+    display: block;
+    background-image: url("./vienna.jpg");
+    background-position: 50%;
+    border-radius: 40px;
+    width: 80%;
+    height: 400px;
+    overflow: auto;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.buttons button{
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-width: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover{
+    background: whitesmoke;
+}
